@@ -482,7 +482,6 @@ ${toolbox_search_category}
 </category>
 <!--"Favorites Here"-->
    <category name="{{ TOOLBOX_BASE }}" colour="#F46580">
-<label text="Main"></label>
 <block type="parham_whencoderuns"/>
 <label text="For Replit"></label>
 <block type="env">
