@@ -482,6 +482,8 @@ ${toolbox_search_category}
 </category>
 <!--"Favorites Here"-->
    <category name="{{ TOOLBOX_BASE }}" colour="#F46580">
+<label text="Main"></label>
+<block type="parham_whencoderuns"/>
 <label text="For Replit"></label>
 <block type="env">
 <value name="VALUE">
@@ -497,8 +499,6 @@ ${toolbox_search_category}
                     </shadow>
                 </value>
 </block>
-<label text="Advanced"></label>
-<block type="parham_whencoderuns"/>
 </category>
 <category name="Files" colour="#0066ff">
 <block type="parham_files_write"/>
