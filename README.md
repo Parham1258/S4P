@@ -25,7 +25,7 @@ And you're done!-->
 
 To run S4P, follow these steps:
 
-* Clone the project. Run `git clone https://github.com/Parham1258/s4p`.
+* Clone the project. Run `git clone https://github.com/Parham1258/S4P`.
 * Run `yarn install` to install project dependencies.
 * Run `yarn start` to start the development server.
 * Go to `http://localhost:3000`!
