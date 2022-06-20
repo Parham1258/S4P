@@ -1,0 +1,32 @@
+import * as Blockly from "blockly";
+
+const blockName = "parham_replitdb_deleteitem";
+
+const blockData = {
+  "message0": "Delete Item %1 From Replit DB",
+  "args0": [
+    {
+      "type": "input_value",
+      "name": "delete",
+      "check": "String"
+    }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 255,
+  "tooltip": "Delete Item From Replit DB",
+  "helpUrl": ""
+};
+
+Blockly.Blocks[blockName] = {
+    init: function() {
+        this.jsonInit(blockData);
+    }
+};
+
+Blockly.Python[blockName] = function(block) {
+  var value_delete = Blockly.Python.valueToCode(block, 'delete', Blockly.Python.ORDER_ATOMIC);
+  // TODO: Assemble Python into code variable.
+  var code = `del replit.db[${value_delete}]`;
+  return code;
+};
