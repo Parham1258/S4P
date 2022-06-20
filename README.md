@@ -47,4 +47,4 @@ The discord.js guide has [instructions for setting up a bot application](https:/
 
 * Snowflake107 ([snowflake107](https://github.com/Snowflake107))
 * Blockly ([google/blockly](https://github.com/google/blockly))
-* And, of course, ([S4D PY](https://github.com/s4d-py/s4d-py))
+* S4D PY ([s4d-py/scratch-for-discord](https://github.com/s4d-py/scratch-for-discord))
